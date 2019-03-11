@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Create an Account</title>
+<body>
+
+  <link type="text/css" rel="stylesheet"  href="style.css"/>
+  <img src="dot_img.jpg" width="1550px" height="1000px" />
+<div class="fb-body">
+
+<div id="intro1" class="fb-body">
+Facebook helps you connect and share with the<br>
+people in your life.</div><br><br>
+
+
+<div id="intro2" class="fb-body">
+Create An Account</div>
+
+<div id="img2" class="fb-body">
+<img src="facebook_img.png" width="500px" height="500px" /></div>
+
+<div id="intro3" class="fb-body">
+Its free and always will be be.</div>
+
+<div id ="form3" class="fb-body">
+
+<input placeholder="First Name" type="text" id="namebox" name="name1"/>
+
+<input placeholder="Last Name" type="text" id="namebox"/><br><br>
+
+<input placeholder="Email" type="text" id="mail box"/><br><br>
+
+<input placeholder="Re-enter email" type="text" id="mail box"/><br><br>
+
+<input placeholder="Password" type="password" id="mail box"/><br><br>
+
+<input type="date" id="namebox"/><br><br>
+
+<input type="radio" id="r-b" name="sex" value="male"/>male
+
+<input type="radio" id="r-b" name="sex" value="female"/>Female<br><br>
+
+<p id="intro4">By clicking create an account, you agree to our Terms and that you have read our Data policy,including our Cookies use.</p>
+ <input type="Submit" class="button2" value="create an account" />
+<br><hr>
+
+<p id="intro5">create a page for a celebrity,band or business.</p>
+
+</div>
+</div>
+<div class="fb-body-footer">
+
+<div id="fb-body-footer-base" class="fb-body-footer">English(UK)<br><hr>
+Sign up Log In &copy;www.coderglass.com&nbsp;&nbsp;&nbsp;Design by Pushpam Selastina.G</div>
+<script>
+   function validateForm()
+   {
+        var un = document.loginform.usr.value;
+		var pw = document.loginform.pword.value;
+		var username="username";
+		var password="password";
+		if((un == username) && (pw == password))
+		{
+		                                           window.location = "fb.html";
+												   
+												   return false;
+												   }
+												   else
+												   {
+												   alert("login was unsucessful,please check your username and password");
+												   }
+												 }
+												 </script>
+
+
+</div>
+</body>
+<html>
+

@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Transparent Login Form Design</title>
+
+<Link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<img src="fb_img.jpg" height="750px" width="1350">
+<div class="login-box">
+<img src="facebook_img.png"class="avatar">
+
+<h1>Login Here</h1>
+<form>
+<p>username</p>
+<input type="text" name="username" placeholder="enter username" onchange="validateForm()">
+
+<p>password</p>
+<input type="password" name="password" placeholder="enter password" onchange="validateForm()">
+
+<h2> <a href="home.html"><input type="button" name="submit" value="Login"><br><br>
+<a href="forgetpassword.html">Forget password</a>&nbsp&nbsp&nbsp&nbsp&nbsp <a href="CreateAccount.html">Create account</a>
+<script>
+   function validateForm()
+   {
+        var un = document.loginform.usr.value;
+		var pw = document.loginform.pword.value;
+		var username="username";
+		var password="password";
+		if((un == username) && (pw == password))
+		{
+		                                           window.location = "fb.html";
+												   
+												   return false;
+												   }
+												   else
+												   {
+												   alert("login was unsucessful,please check your username and password");
+												   }
+												 }
+												 </script>
+
+     </form>
+       </div>
+        </body>
+           </html>
